@@ -1,6 +1,6 @@
 baseURL: https://mckennacs.github.io
 
-languageCode: bn
+languageCode: en
 title: "John's Blog"
 
 # Use Hugo modules to add theme
@@ -30,6 +30,10 @@ languages:
     languageName: বাংলা
     title: জনের ব্লগ
     weight: 2
+    disabled: true
+
+disableLanguages:
+  - bn
 # default language for the content
 defaultContentLanguage: en
 
@@ -57,8 +61,7 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/sato-cover-art.jpg
-
+  background: /images/site/istrfry-marcus-unsplash.jpg
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
@@ -97,7 +100,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
@@ -114,7 +117,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:

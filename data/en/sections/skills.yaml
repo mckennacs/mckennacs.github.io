@@ -25,20 +25,20 @@ buttons:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
+- name: HTML
+  logo: /images/sections/skills/html5.png
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
+  categories: ["basic", "language"]
   url: "https://kubernetes.io/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
+- name: CSS
+  logo: /images/sections/skills/CSS3.png
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   categories: ["basic", "language"]
   url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
+- name: JavaScript
+  logo: /images/sections/skills/js.png
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
   categories: ["others"]
 
@@ -56,16 +56,17 @@ skills:
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "Experience with Debian-based distributions for personal use and Red Hat server administration. Capable of writing bash/shell scripts."
   categories: ["others"]
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development, mainly GitHub"
   categories: ["basic"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Familiar with writing Python scripts and interacting with 3rd party APIs"
   categories: ["basic", "language"]
+  url: "https://www.python.org/"

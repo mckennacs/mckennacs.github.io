@@ -3,7 +3,7 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 5
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -21,45 +21,75 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: WGNB Podcast
+  # logo: /images/sections/projects/kubernetes.png
+  image: /images/sections/projects/wgnb.jpg
+  role: Designer, Writer
+  # timeline: "March 2018 - Present"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://ghobot.net/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: A simple WordPress blog for my personal music podcast.
+  tags: ["professional", "hobby"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+- name: Panoptikon Party
+  # logo: /images/sections/projects/tensorflow.png
+  image: /images/sections/projects/panoptikon_screen.jpg
+  role: Developer, Designer
+  timeline: "May 2024"
+  # repo: https://github.com/tensorflow/tensorflow
+  url: "https://www.panoptikonparty.xyz/"
+  summary: Portfolio for new media artist panoptikon.party.
+  tags: ["professional"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: E.C. Darling-Bond Portfolio
+  image: /images/sections/projects/ecdb-screenshot.png
+  role: Developer, Designer
+  timeline: "Jan 2024"
+  url: "https://www.ecdarlingbond.com/"
+  summary: Portfolio for actor E.C. Darling-Bond.
+  tags: ["professional"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: Rykard's Records
+  image: /images/sections/projects/records.jpg
+  role: Developer, Designer
+  timeline: "2023"
+  # repo: https://github.com/kelseyhightower/nocode
+  url: "https://portfolio.csmckenna.com/record-store/"
+  summary: WordPress site for a local record store, created for EMCC WordPress course.
+  tags: ["academic"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: game.zone
+  # logo: /images/sections/projects/toha.png
+  image: /images/sections/projects/game_zone_1.gif
+  role: Developer, Designer
+  timeline: "2022"
+  # repo: https://github.com/hossainemruz/toha
+  url: "https://www.csmckenna.com/game-zone/"
+  summary: Online Game Marketplace built with Bootstrap 5 for E-commerce course at EMCC.
+  tags: ["academic"]
+
+- name: Dwarf Fortress Name Generator
+  # logo: /images/sections/projects/toha.png
+  image: /images/sections/projects/dwarf_names.gif
+  role: Developer, Designer
+  timeline: "2021"
+  # repo: https://github.com/hossainemruz/toha
+  url: "https://www.csmckenna.com/game-zone/"
+  summary: Generates random character names for the PC game "Dwarf Fortress" using vanilla JavaScript.
+  tags: ["academic"]
+
+- name: Elden Ring Spirit Ashes
+  image: /images/sections/projects/ashes.jpg
+  role: Developer, Designer
+  timeline: "2021"
+  url: "https://www.csmckenna.com/game-zone/"
+  summary: A project demonstrating use of multiple HTML pages styled by a single CSS style sheet. 
+  tags: ["academic"]  
+
+- name: Berserk Fan Page
+  image: /images/sections/projects/berserk.jpg
+  role: Developer, Designer
+  timeline: "2021"
+  url: "https://portfolio.csmckenna.com/berserk/index.html"
+  summary: Final project for Web Development course, using multiple HTML pages, styled with CSS and designed for responsiveness. 
+  tags: ["academic"]  

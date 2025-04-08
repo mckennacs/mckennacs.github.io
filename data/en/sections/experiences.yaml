@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Job History
+  name: Professional Experience
   id: experiences
   enable: true
   weight: 3
@@ -20,54 +20,55 @@ experiences:
       # company overview
       overview: Spokane, WA based rescue committed to saving pregnant dogs and puppies from euthanasia in kill shelters or from living on the streets of Texas.
     positions:
-      - designation: Senior Software Engineer
-        start: Nov 2019
+      - designation: UX/Web Design Specialist
+        start: Oct 2024
         # don't provide end date if you are currently working there. It will be replaced by "Present"
         # end: Dec 2020
         # give some points about what was your responsibilities at the company.
         responsibilities:
-          - Design and develop XYZ tool for ABC task
-          - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-          - Lead backend team.
+          - Optimized existing Squarespace site for mobile use
+          - Assisted in the design and creation of new pages for seasonal events
+          - Utilized Neon CRM to create new marketing email templates
+          - Contributed to site redesign
 
-      - designation: Junior Software Engineer
-        start: Nov 2017
-        end: Oct 2019
-        responsibilities:
-          - Implement and test xyz feature for abc tool.
-          - Support client for abc tool.
-          - Learn k,d,w technology for xyz.
 
   - company:
-      name: PreExample Co.
+      name: Freelance
       url: "https://www.example.com"
-      location: Nowhere
-      logo: /images/sections/experiences/company2.jpg
+      location: Remote
+      # logo: /images/sections/experiences/company2.jpg
       # Can optionally show a different logo for dark theme
       # darkLogo: /images/sections/experiences/company2.jpg
-      overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+      # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
     positions:
-      - designation: Software Engineer
-        start: March 2016
-        end: May 2017
+      - designation: Web Designer/Developer
+        start: Jan 2024
+        # end: May 2017
         responsibilities:
-          - Write lots of example codes.
-          - Read lots of examples.
-          - See lots of example videos.
+          - Designed and developed responsive websites using HTML5, CSS3, JavaScript, and frameworks like Bootstrap.
+          - Customized Wix Studio designs and WordPress themes and plugins to meet client specifications and enhance site functionality.
+          - Implemented SEO best practices and optimized website performance, achieving loading times under 3 seconds.
 
   - company:
-      name: Intern Counting Company (ICC).
-      url: "https://www.example.com"
-      location: Intern Land
-      logo: /images/sections/experiences/company3.jpg
+      name: National Testing Network
+      url: "https://nationaltestingnetwork.com"
+      location: Phoenix, AZ
+      logo: /images/sections/experiences/ntn.png
       # Can optionally show a different logo for dark theme
       # darkLogo: /images/sections/experiences/company3.jpg
-      overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+      overview: National Testing Network, Inc. (NTN) is the leading provider of continuous recruitment and employment testing services for public safety and transit agencies
     positions:
-      - designation: Intern
-        start: Jun 2015
-        end: Jan 2016
+      - designation: Lead Exam Proctor
+        start: Feb 2025 
+        # end: Jan 2016
         responsibilities:
-          - Count lost of interns.
-          - Count more interns.
-          - Count me as an intern.
+          - Virtually monitored candidates taking exams to become first responders, ensuring test safety.
+          - Utilized NTN's online proctor portal to check in in testers.
+          - Performed basic technical and customer support for candidate issues.
+      - designation: Exam Proctor
+        start: Oct 2022
+        end: Feb 2025 
+        responsibilities:
+          - Virtually monitored candidates taking exams to become first responders, ensuring test safety.
+          - Utilized NTN's online proctor portal to check in in testers.
+          - Performed basic technical and customer support for candidate issues.
