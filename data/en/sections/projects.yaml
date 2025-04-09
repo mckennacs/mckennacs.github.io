@@ -31,6 +31,16 @@ projects:
   summary: A simple WordPress blog for my personal music podcast.
   tags: ["professional", "hobby"]
 
+- name: Portfolio (2024)
+  # logo: /images/sections/projects/tensorflow.png
+  image: /images/sections/projects/portfolio-2024.png
+  role: Developer, Designer
+  # timeline: "May 2024"
+  # repo: https://github.com/tensorflow/tensorflow
+  url: "https://www.panoptikonparty.xyz/"
+  summary: Previous version of portfolio written with simple HTML and CSS.
+  tags: ["professional"]  
+
 - name: Panoptikon Party
   # logo: /images/sections/projects/tensorflow.png
   image: /images/sections/projects/panoptikon_screen.jpg
